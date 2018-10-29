@@ -7,7 +7,7 @@ called as the first thing before the main application loads.
 
 To supply the sudo username and password during development locally, just use the environment variables defined as,
 
-ELEVATOR_SUDO_PASSWORD=12341234
+    ELEVATOR_SUDO_PASSWORD=12341234
 
 As you should already know, what i described a moment ago is a terrible idea, and you should never do it. But, if
 you feel like not entering the password again and again on every restart while debugging your application, it's
