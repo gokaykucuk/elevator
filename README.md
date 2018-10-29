@@ -6,7 +6,6 @@ and then restart the application.
 
 To supply the sudo username and password during development locally, just use the environment variables defined as,
 
-SUDO_USER_NAME="asudoer"
 SUDO_PASSWORD=12341234
 
 As you should already know, what i described a moment ago is a terrible idea, and you should never do it. But, if
