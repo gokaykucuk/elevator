@@ -1,7 +1,13 @@
 package elevator
 
-import "testing"
+import (
+	"testing"
+)
 
 func TestRequest(t *testing.T) {
-	CheckAndRequestElevation("hello")
+	// I don't know how to test this?
+	err := CheckAndRequestElevation()
+	if err != nil {
+		t.Errorf("Error returned : " + err.Error())
+	}
 }
