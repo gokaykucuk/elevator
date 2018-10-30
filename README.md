@@ -2,7 +2,10 @@
 [![Codeclimate](https://codeclimate.com/github/gokaykucuk/elevator/maintainability)](https://api.codeclimate.com/v1/badges/083de9bce09a2a67c06d/maintainability)
 [![codecov](https://codecov.io/gh/gokaykucuk/elevator/branch/master/graph/badge.svg)](https://codecov.io/gh/gokaykucuk/elevator)
 [![Build Status](https://travis-ci.org/gokaykucuk/elevator.svg?branch=master)](https://travis-ci.org/gokaykucuk/elevator)
-[![GithubDownloads](https://img.shields.io/coveralls/gokaykucuk/elevator/master.svg)](https://coveralls.io/github/gokaykucuk/elevator)
+[![Coveralls](https://img.shields.io/coveralls/gokaykucuk/elevator/master.svg)](https://coveralls.io/github/gokaykucuk/elevator)
+![GithubSize](https://img.shields.io/github/size/webcaetano/craft/build/phaser-craft.min.js.svg)
+![license](https://img.shields.io/github/license/mashape/apistatus.svg)
+[![readthedocs](https://gokaykucukelevator.readthedocs.io/en/latest/?badge=latest)](https://readthedocs.org/projects/gokaykucukelevator/)
 
 A golang library for requesting self-sudo.
 
