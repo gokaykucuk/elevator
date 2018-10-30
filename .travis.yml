@@ -8,9 +8,10 @@ before_install:
 - make ci_deps
 
 script:
-#- go test
-#- go test -race -coverprofile=coverage.txt -covermode=atomic
-- go test -v -covermode=count -coverprofile=coverage.out $HOME/gopath/bin/goveralls -coverprofile=coverage.out -service=travis-ci -repotoken $COVERALLS_TOKEN
+- go test
+- go test -race -coverprofile=coverage.txt -covermode=atomic
+- go test -v -covermode=count -coverprofile=coverage.out
+- $HOME/gopath/bin/goveralls -coverprofile=coverage.out -service=travis-ci -repotoken $COVERALLS_TOKEN
 
 after_success:
 - bash <(curl -s https://codecov.io/bash)
