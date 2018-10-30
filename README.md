@@ -57,7 +57,7 @@ Just as any other go package, you can get it with `go get`
 
 
 ### Contributing
-You can create a PR and as long as it makes sense, and doesnt' enlarge the scope of the project by 2, it'll be merged.
+You can create a PR and as long as it makes sense, and doesn't enlarge the scope of the project by 2, it'll be merged.
 
 ### Testing
 Currently there are no real tests because i don't have a good idea how to write them. If you have any good ideas please
