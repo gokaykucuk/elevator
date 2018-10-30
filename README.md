@@ -3,6 +3,7 @@
 [![codecov](https://codecov.io/gh/gokaykucuk/elevator/branch/master/graph/badge.svg)](https://codecov.io/gh/gokaykucuk/elevator)
 [![Build Status](https://travis-ci.org/gokaykucuk/elevator.svg?branch=master)](https://travis-ci.org/gokaykucuk/elevator)
 [![Coverage Status](https://coveralls.io/repos/github/gokaykucuk/elevator/badge.svg?branch=master)](https://coveralls.io/github/gokaykucuk/elevator?branch=master)
+
 A golang library for requesting self-sudo.
 
 Simply put, the idea is in the runtime, if the process is not started with superuser permissions, request them
