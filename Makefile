@@ -10,8 +10,8 @@ BINARY_UNIX=$(BINARY_NAME)_unix
 test:
 		$(GOTEST) -v ./...
 ci_deps:
-		$(GOGET) golang.org/x/tools/cmd/cover
-		$(GOGET) github.com/mattn/goveralls
+		$(GOGET) -u golang.org/x/tools/cmd/cover
+		$(GOGET) -u github.com/mattn/goveralls
 
 # Cross compilation
 build-linux:
