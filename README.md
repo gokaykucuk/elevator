@@ -1,4 +1,5 @@
 # elevator
+<a href="https://codeclimate.com/github/gokaykucuk/elevator/maintainability"><img src="https://api.codeclimate.com/v1/badges/083de9bce09a2a67c06d/maintainability" /></a>
 A golang library for requesting self-sudo.
 
 Simply put, the idea is in the runtime, if the process is not started with superuser permissions, request them
