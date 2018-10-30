@@ -9,8 +9,8 @@ before_install:
 script:
 - go test
 - go test -race -coverprofile=coverage.txt -covermode=atomic
-- go test -v -covermode=count -coverprofile=coverage.out
-- goveralls -coverprofile=coverage.out -service=travis-ci -repotoken $COVERALLS_TOKEN
+- go test -v -coverprofile=./coverage.out -covermode=count
+- goveralls -coverprofile=./coverage.out -service=travis-ci -repotoken $COVERALLS_TOKEN
 
 after_success:
 - bash <(curl -s https://codecov.io/bash)
