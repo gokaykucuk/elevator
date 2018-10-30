@@ -1,6 +1,7 @@
 # elevator
 <a href="https://codeclimate.com/github/gokaykucuk/elevator/maintainability"><img src="https://api.codeclimate.com/v1/badges/083de9bce09a2a67c06d/maintainability" /></a>
 [![codecov](https://codecov.io/gh/gokaykucuk/elevator/branch/master/graph/badge.svg)](https://codecov.io/gh/gokaykucuk/elevator)
+[![Build Status](https://travis-ci.org/gokaykucuk/elevator.svg?branch=master)](https://travis-ci.org/gokaykucuk/elevator)
 
 A golang library for requesting self-sudo.
 
