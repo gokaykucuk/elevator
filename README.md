@@ -1,4 +1,4 @@
-[!icon](https://gokaykucuk.com/cdn/elevator.svg)
+![icon](https://gokaykucuk.com/cdn/elevator.svg)
 # elevator
 [![Maintainability](https://api.codeclimate.com/v1/badges/083de9bce09a2a67c06d/maintainability)](https://codeclimate.com/github/gokaykucuk/elevator/maintainability)
 [![codecov](https://codecov.io/gh/gokaykucuk/elevator/branch/master/graph/badge.svg)](https://codecov.io/gh/gokaykucuk/elevator)
